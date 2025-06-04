@@ -1,5 +1,9 @@
 package com.example.web_bookstore_be.service;
 
+import com.example.web_bookstore_be.dao.RoleRepository;
+import com.example.web_bookstore_be.dao.UserRepository;
+import com.example.web_bookstore_be.entity.Role;
+import com.example.web_bookstore_be.entity.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
