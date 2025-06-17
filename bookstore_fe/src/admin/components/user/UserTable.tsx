@@ -86,7 +86,7 @@ export const UserTable: React.FC<UserTableProps> = (props) => {
 			field: "role",
 			headerName: "VAI TRÒ",
 			width: 150,
-			renderCell: (params) => {
+			renderCell: (params: { value: string; }) => {
 				return (
 					<Chip
 						label={params.value}

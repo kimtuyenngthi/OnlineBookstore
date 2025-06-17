@@ -32,7 +32,7 @@ interface UserFormProps {
 	handleCloseModal: any;
 }
 
-export const UserForm: React.FC<UserFormProps> = (props) => {
+export const UserForm: React.FC<UserFormProps> = (props: { option: string; id: any; setKeyCountReload: (arg0: number) => void; handleCloseModal: () => void; }) => {
 	// Các biến cần thiết
 	const [user, setUser] = useState<UserModel>({
 		idUser: 0,
